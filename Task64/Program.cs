@@ -36,6 +36,6 @@ static int Rev(int n)
     }
 }
 
-int n = GetNumber("Введите число больше 1");
+int n = GetNumber("Введите число больше 0");
 Rev(n);
 Console.WriteLine(Rev(n));
