@@ -32,7 +32,7 @@ int Value(int m, int n)
         }
         else 
         {
-        return Value(m+1, n - 1) + m+n; 
+        return Value(m + 1, n - 1) + m + n; 
     } 
 }
 
